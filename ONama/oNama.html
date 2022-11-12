@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Nama | Pekara Milan</title>
+    <link rel="stylesheet" href="oNamaStyles.css">
+    
+</head>
+<body>
+
+    <div class="hheder">
+        <div class="heder">
+            <ul id="lista">
+                <li id="slika"><img src="../slike/6.png" style="height: 150px;" style="width: 150px;" ></li>
+                <li id="pocetna">
+                    <a href="../PocetnaStrana/pocetna.html" >POČETNA</a>
+                </li>
+                <li id="onama">
+                     <a href="../ONama/oNama.html">O NAMA</a>
+                 </li>
+                 <li id="proizvodi">
+                     <a href="">PROIZVODI</a>
+                     <ul class="podProizvodi">
+                        <li id="slana">
+                            <a href="../SlanaPeciva/slanaPeciva.html" >Slana Peciva</a><br>
+                        </li>
+                        <li id="slatka">
+                            <a href="../SlatkaPeciva/slatkaPeciva.html" >Slatka Peciva</a><br>
+                        </li>
+                        <li id="torte">
+                            <a href="../TorteIKolaci/torteiKolaci.html" >Torte i Kolači</a><br>
+                        </li>
+                    </ul>
+                 </li>
+            </ul>
+         </div>
+    </div>
+    <div class="divOnama">
+        <div class="pasusi">
+        <h1 id="h1"><b>O NAMA</b></h1>
+        <br>
+        <p id="p1"><b>
+            Pekara Milan počela je sa radom 25.12.1993. godine.
+            Od tada prošle su 23 godine svakodnevnog truda i zalaganja,
+            a trenutni program smrznutog testa, kao i proizvoda koji se 
+            peku na mestu prodaje, dostupan je potrošačima u svim bolje 
+            snabdevenim marketima i prodavnicama.
+        </b></p>
+        <br>
+        <p id="p2"><b>
+            Proizvodnjom više vrsta hleba, peciva, smrznutih testa (kvasnih i beskvasnih)
+            i polupečenih proizvoda , zaokružena je ukupna ponuda naših peciva.
+            Kao originalni proizvodi ove kuće izdvajaju se Suvit kifle i Cerealni dvopek,  
+            dok kao top-proizvode vrhunskog kvaliteta izdvajamo bavarske kifle,
+            pogačice sa čvarcima, knedle sa šljivama, somune.
+        </b></p>
+        <br>
+        <p id="p3"><b>
+            S ponosom ističemo da je Pekara Milan pokretanjem novog pogona i proširivanjem kapaciteta, 
+            dobila priliku da naše – srpske proizvode predstavi na inostranim tržištima i 
+            tako zadovolji potrebe i inostranih kupaca (pite i bureci, somuni, pogačice sa čvarcima, 
+            proizvodi od heljdinog brašna). Iz godine u godinu proširujemo asortiman, 
+            unapređujemo način proizvodnje, nastavljajući da se borimo za vrhunski kvalitet ishrane.
+        </b></p>
+        </div>
+        <h1 id="h12"><b>LOKACIJA</b></h1><br>
+        <div class="podDiv">
+            <div class="grid">
+                <div class="lokacijaDiv">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11233.533981646478!2d19.8413304!3d45.2602581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd434da8f3b60cba5!2sBakery%20Milan!5e0!3m2!1sen!2srs!4v1606755953861!5m2!1sen!2srs" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="nadFormaDiv">
+                    <form class="forma">
+                        <div class="formaDiv">
+                            <div class="lbl">
+                                <label for="ime"><b>IME</b></label>
+                            </div>
+                            <div class="txt">
+                                <input id="ime" type="text">
+                            </div>
+                        </div>
+                        <div class="formaDiv">
+                            <div class="lbl">
+                                <label for="email"><b>E-MAIL</b></label>
+                            </div>
+                            <div class="txt">
+                                <input id="email" type="text">
+                            </div>
+                        </div>
+                        <div class="formaDiv">
+                            <div class="lbl">
+                                <label for="poruka"><b>VAŠA PORUKA</b></label>
+                            </div>
+                            <div class="txt">
+                                <textarea id="poruka" rows="20" cols="70"></textarea>
+                            </div>
+                        </div>
+                        <div class="formaDiv">
+                            <input onclick="notifikacija()" id="dugme" type="submit" value="PROSLEDI">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <div class="ffuter">
+        <div class="futer">
+            <div class="radno">
+            <h1><b>RADNO VREME</b></h1><br>
+            <p>Ponedeljak-Petak:<i> 8-22</i></p><br>
+            <p>Subota i nedelja:<i> 8-16</i></p>
+            </div>
+
+            <div class="follow">
+            <h1><b>PRATITE NAS</b></h1><br>
+            <a href="https://www.facebook.com/pekaramilan/"><img src="../slike/facebook.png" style="width: 30px;" style="height: 30px;"></a>
+            <a href="https://www.instagram.com/pekaramilan/"><img src="../slike/instagram.png" style="width: 30px;" style="height: 30px;"></a>
+            </div>
+
+            <div class="kontakt">
+            <h1><b>KONTAKT</b></h1><br>
+            <p>Telefon: +381 21 66 21 152</p><br>
+            <p>Adresa: A. Jovana Rajica 2, 21000 Novi Sad, RS</p><br>
+            <p>E-mail: prodaja@pekara-milan.rs</p>
+            </div>
+        </div>
+   </div>
+    <script src="oNamaJS.js"></script>
+</body>
+</html>

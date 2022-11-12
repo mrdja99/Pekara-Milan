@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hheder{
+    background-color: rgb(66, 11, 11);
+    height: 25vh;
+}
+.heder{
+    display: table;
+    margin: 0 auto;
+}
+#slika{
+  position: absolute;
+  left: -50px;
+  top: 0px;
+}
+#lista{
+    /*min-width: 1920px;*/
+    list-style: none;
+    padding-top: 20px;
+    text-align: center;  
+}
+#lista li{
+    display: inline;
+    margin-left: 50px;
+}
+.heder ul ul{
+    display: none;
+}
+.heder ul li:hover >ul{
+    display: block;
+}
+.heder ul ul{
+    margin-left: 275px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+#proizvodi .podproizvodi a{
+    display: block;
+    padding-left: 275px;
+    list-style: none;
+    opacity: 0;
+}
+#proizvodi a:hoover{
+    opacity: 1;
+}
+body{
+    overflow-x: hidden;
+}
+.torteParent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    background-color: rgb(56, 50, 44);
+    padding-top: 50px;
+    height: 200vh;
+    padding-bottom: 20px;
+}
+.torte1{
+    background-image: url(../slike/TorteIkolaciSlike/Cheesecake.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.torte2{
+    background-image: url(../slike/TorteIkolaciSlike/Domaci\ kolaci.jpg);
+    background-size: cover;
+}
+.torte3{
+    background-image: url(../slike/TorteIkolaciSlike/Jafa\ torta.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.torte4{
+    background-image: url(../slike/TorteIkolaciSlike/krempita.jpg);
+    background-size: cover;
+}
+.torte5{
+    background-image: url(../slike/TorteIkolaciSlike/Mafini.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.torte6{
+    background-image: url(../slike/TorteIkolaciSlike/Medeno\ srce.jpg);
+    background-size: cover;
+}
+.torte7{
+    background-image: url(../slike/TorteIkolaciSlike/Reforma.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.torte8{
+    background-image: url(../slike/TorteIkolaciSlike/Tiramisu.jpg);
+    background-size: cover;
+}
+#kolaci{
+    width: 100%;
+    background-color: red;
+}
+#cena{
+    background-color: green;
+}
+.ffuter{
+    margin: 0;
+    padding: 0;
+}
+.futer{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color: rgb(66, 11, 11);
+    padding-top: 20px;
+}
+.radno{
+    margin-left: 20px;
+}
+.kontakt{
+    margin-right: 50px;
+}

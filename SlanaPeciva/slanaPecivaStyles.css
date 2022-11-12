@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hheder{
+    background-color: rgb(66, 11, 11);
+    height: 25vh;
+}
+.heder{
+    display: table;
+    margin: 0 auto;
+}
+#slika{
+  position: absolute;
+  left: -50px;
+  top: 0px;
+}
+#lista{
+    /*min-width: 1920px;*/
+    list-style: none;
+    padding-top: 20px;
+    text-align: center;  
+}
+#lista li{
+    display: inline;
+    margin-left: 50px;
+}
+.heder ul ul{
+    display: none;
+}
+.heder ul li:hover >ul{
+    display: block;
+}
+.heder ul ul{
+    margin-left: 275px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+#proizvodi .podproizvodi a{
+    display: block;
+    padding-left: 275px;
+    list-style: none;
+    opacity: 0;
+}
+#proizvodi a:hoover{
+    opacity: 1;
+}
+body{
+    overflow-x: hidden;
+}
+.slanaParent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding-top: 50px;
+    background-color:rgb(56, 50, 44);
+    height: 200vh;
+    padding-bottom: 20px;
+}
+.slanoPecivo1{
+    background-image: url(../slike/SlanaPecivaSlike/Burek2.JPG);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.slanoPecivo2{
+    background-image: url(../slike/SlanaPecivaSlike/rol-virsle.jpg);
+    background-size: cover;
+}
+.slanoPecivo3{
+    background-image: url(../slike/SlanaPecivaSlike/Mini\ pice\ pecivo.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.slanoPecivo4{
+    background-image: url(../slike/SlanaPecivaSlike/Pogacice\ sa\ cvarcima.jpg);
+    background-size: cover;
+}
+.slanoPecivo5{
+    background-image: url(../slike/SlanaPecivaSlike/Puzevi.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.slanoPecivo6{
+    background-image: url(../slike/SlanaPecivaSlike/Slani\ kroasani.jpg);
+    background-size: cover;
+}
+.slanoPecivo7{
+    background-image: url(../slike/SlanaPecivaSlike/Slani\ rolat.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.slanoPecivo8{
+    background-image: url(../slike/SlanaPecivaSlike/Zu\ zu.jpg);
+    background-size: cover;
+}
+#slikaPopup{
+    width: 100%;
+    background-color: red;
+}
+#cena{
+    background-color: green;
+}
+.ffuter{
+    margin: 0;
+    padding: 0;
+}
+.futer{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color: rgb(66, 11, 11);
+    padding-top: 20px;
+    overflow:hidden;
+    
+}
+.radno{
+    margin-left: 20px;
+}
+.kontakt{
+    margin-right: 50px;
+}
+
